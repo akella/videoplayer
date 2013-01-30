@@ -5,15 +5,15 @@ img { filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/sv
 body { padding: 20px; }
 
 #v { position: relative; width: 660px; font-family: Helvetica,Arial,sans-serif; background: #333; border-radius: 4px; }
-#v .v__title { color: #fff; text-transform: uppercase; font-size: 14px; font-weight: bold; line-height: 1; padding: 10px; position: relative; width: 95%; overflow: hidden; text-overflow: ellipsis; }
+#v .v__title { color: #fff; text-transform: uppercase; font-size: 14px; font-weight: bold; line-height: 1; padding: 0 10px; height: 40px; line-height: 40px; position: relative; width: 95%; overflow: hidden; text-overflow: ellipsis; }
 #v .v__video { padding: 0 10px; }
-#v .v__share { position: absolute; top: 8px; right: 10px; background: url('../img/icons-se952886114.png') 0 -275px no-repeat; width: 22px; height: 18px; cursor: pointer; }
-#v .v__meta { position: relative; padding: 10px; background: #262626; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
-#v .v__meta .v__likes { position: absolute; right: 10px; top: 10px; color: #aaa; font-size: 13px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); cursor: pointer; }
-#v .v__meta .v__likes .v__likesicon { display: inline-block; background: url('../img/icons-se952886114.png') 0 -82px no-repeat; width: 23px; height: 19px; vertical-align: middle; position: relative; top: -2px; }
-#v .v__meta .v__next, #v .v__meta .v__prev { display: inline-block; vertical-align: middle; margin-left: 10px; cursor: pointer; }
-#v .v__meta .v__next { background: url('../img/icons-se952886114.png') 0 -330px no-repeat; width: 17px; height: 16px; }
-#v .v__meta .v__prev { background: url('../img/icons-se952886114.png') 0 -356px no-repeat; width: 17px; height: 16px; }
+#v .v__share { position: absolute; top: 8px; right: 10px; background: url('../img/icons-s747444b448.png') 0 -275px no-repeat; width: 22px; height: 18px; cursor: pointer; }
+#v .v__meta { position: relative; padding: 0 10px 0 17px; height: 49px; line-height: 49px; background: #262626; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top: 1px solid #484848; }
+#v .v__meta .v__likes { position: absolute; right: 10px; top: 10px; color: #aaa; font-size: 14px; font-weight: bold; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); cursor: pointer; }
+#v .v__meta .v__likes .v__likesicon { display: inline-block; background: url('../img/icons-s747444b448.png') 0 -82px no-repeat; width: 23px; height: 19px; vertical-align: middle; position: relative; top: -2px; }
+#v .v__meta .v__next, #v .v__meta .v__prev { display: inline-block; vertical-align: middle; margin-right: 14px; cursor: pointer; }
+#v .v__meta .v__next { background: url('../img/icons-s747444b448.png') 0 -357px no-repeat; width: 17px; height: 16px; }
+#v .v__meta .v__prev { background: url('../img/icons-s747444b448.png') 0 -383px no-repeat; width: 17px; height: 16px; }
 #v .v__meta .v__currenttrack { position: relative; margin-left: 10px; top: 2px; font-size: 14px; text-transform: uppercase; color: #fff; display: inline-block; }
 #v .v__meta .v__currenttrack span { color: #999; font-size: 12px; }
 
@@ -45,7 +45,7 @@ body.vjs-full-window { height: 100%; overflow-y: auto; margin: 0; padding: 0; }
 
 .vjs-fade-out { visibility: hidden!important; opacity: 0!important; -webkit-transition: visibility 0 linear 1.5s 1.5s linear; -moz-transition: visibility 0 linear 1.5s 1.5s linear; -ms-transition: visibility 0 linear 1.5s 1.5s linear; -o-transition: visibility 0 linear 1.5s 1.5s linear; transition: visibility 0 linear 1.5s 1.5s linear; }
 
-.vjs-default-skin .vjs-controls { position: absolute; bottom: 0; left: 0; right: 0; height: 2.6em; color: #fff; border-top: 1px solid #404040; background: linear-gradient(top, #242424 50%, #1f1f1f 50%, #171717 100%); visibility: hidden; opacity: 0; margin: 0; padding: 0; }
+.vjs-default-skin .vjs-controls { position: absolute; bottom: 0; left: 0; right: 0; height: 2.6em; color: #fff; border-top: 1px solid #404040; background: #333; visibility: hidden; opacity: 0; margin: 0; padding: 0; }
 
 .vjs-default-skin .vjs-control { position: relative; float: left; text-align: center; height: 2.6em; width: 2.6em; margin: 0; padding: 0; }
 

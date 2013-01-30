@@ -44,7 +44,9 @@ body{
       font-size: 14px;
       font-weight: bold;
       line-height: 1;
-      padding: 10px;
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
       position: relative;
       width: 95%;
       overflow: hidden;
@@ -63,16 +65,20 @@ body{
 
    .v__meta{
       position: relative;
-      padding: 10px;
+      padding: 0 10px 0 17px;
+      height: 49px;
+      line-height: 49px;
       background: #262626;
       border-bottom-left-radius:4px;
       border-bottom-right-radius:4px;
+      border-top: 1px solid #484848;
       .v__likes{
          position: absolute;
          right: 10px;
          top: 10px;
          color: #aaa;
-         font-size: 13px;
+         font-size: 14px;
+         font-weight: bold;
          text-shadow: 0 1px 0 rgba(#000,.3);
          cursor: pointer;
          .v__likesicon{
@@ -86,7 +92,7 @@ body{
       .v__next,.v__prev{
          display: inline-block;
          vertical-align: middle;
-         margin-left: 10px;
+         margin-right: 14px;
          cursor: pointer;
       }
       .v__next{
@@ -231,7 +237,8 @@ right:0;
 height:2.6em;
 color:#fff;
 border-top:1px solid #404040;
-background:linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);
+// background:linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);
+background: #333;
 visibility:hidden;
 opacity:0;
 margin:0;

@@ -103,6 +103,7 @@ transition:visibility 0 linear 1.5s 1.5s linear;
 }
 
 .vjs-default-skin .vjs-controls {
+
 position:absolute;
 bottom:0;
 left:0;
@@ -110,7 +111,8 @@ right:0;
 height:2.6em;
 color:#fff;
 border-top:1px solid #404040;
-background:linear-gradient(top,#24242450%,#1f1f1f50%,#171717100%);
+
+background: #333333;
 visibility:hidden;
 opacity:0;
 margin:0;
